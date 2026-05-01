@@ -1,0 +1,9 @@
+Health Check Report — 2026-05-01 07:54:48
+==========================================
+[OK]       prod-web-01 (10.0.1.1) - CPU: 45%
+[CRITICAL] prod-web-02 (10.0.1.17) - Server is DOWN
+[CRITICAL] prod-web-03 (10.0.1.2) - CPU High: 91%
+[OK]       prod-web-04 (10.0.1.22) - CPU: 33%
+[CRITICAL] prod-web-05 (10.0.1.4) - CPU High: 95%
+
+Summary: 2/5 servers healthy
