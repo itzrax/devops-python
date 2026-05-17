@@ -11,7 +11,7 @@ def check_server(name,status,cpu,ip):
         return f"[CRITICAL] {name} ({ip}) - CPU High: {cpu}%"
     else:
         return f"[OK]       {name} ({ip}) - CPU: {cpu}%"
-results=[]
+results=[] 
 
 with open("day-02/servers.txt", "r") as f:
     for line in f:
