@@ -1,4 +1,5 @@
 import json
+import yaml
 from datetime import datetime
 
 def check_server(server):
@@ -61,3 +62,5 @@ with open("day-03/report.json", "w") as f:
 print("Health report generated successfully!")
 
 
+with open("day-03/report.yaml", "w") as f:
+    yaml.dump(report, f)

@@ -1,0 +1,21 @@
+results:
+- message: 'CPU: 45%'
+  server: prod-web-01
+  status: OK
+- message: Server is DOWN
+  server: prod-web-02
+  status: CRITICAL
+- message: 'High CPU usage: 91%'
+  server: prod-web-03
+  status: CRITICAL
+- message: 'CPU: 33%'
+  server: prod-web-04
+  status: OK
+- message: 'High CPU usage: 95%'
+  server: prod-web-05
+  status: CRITICAL
+summary:
+  critical: 3
+  healthy: 2
+  total: 5
+timestamp: '2026-05-17 10:38:30'
