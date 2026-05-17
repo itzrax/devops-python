@@ -13,7 +13,7 @@ def check_server(server):
             "message": "Server is DOWN"
         }
 
-    elif cpu > 90:
+    elif cpu > 80:
         return {
             "server": name,
             "status": "CRITICAL",
