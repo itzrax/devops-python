@@ -1,0 +1,25 @@
+{
+    "counts": {
+        "INFO": 4,
+        "WARNING": 2,
+        "ERROR": 4
+    },
+    "errors": [
+        {
+            "timestamp": "2026-05-01 10:23:45",
+            "message": "Failed to connect to database"
+        },
+        {
+            "timestamp": "2026-05-01 10:24:55",
+            "message": "Disk space critical: 95% used"
+        },
+        {
+            "timestamp": "2026-05-01 10:25:33",
+            "message": "Authentication failed for user admin"
+        },
+        {
+            "timestamp": "2026-05-01 10:27:10",
+            "message": "Database connection timeout"
+        }
+    ]
+}

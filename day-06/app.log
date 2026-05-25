@@ -1,0 +1,10 @@
+2026-05-01 10:23:11 INFO Server started successfully
+2026-05-01 10:23:45 ERROR Failed to connect to database
+2026-05-01 10:24:01 WARNING High memory usage detected: 91%
+2026-05-01 10:24:55 ERROR Disk space critical: 95% used
+2026-05-01 10:25:10 INFO Backup completed successfully
+2026-05-01 10:25:33 ERROR Authentication failed for user admin
+2026-05-01 10:26:01 INFO Health check passed
+2026-05-01 10:26:45 WARNING CPU usage high: 87%
+2026-05-01 10:27:10 ERROR Database connection timeout
+2026-05-01 10:27:55 INFO Deployment completed
