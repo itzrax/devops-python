@@ -1,0 +1,23 @@
+{
+    "timestamp": "2026-06-25 07:04:13",
+    "containers": [
+        {
+            "name": "test-alpine",
+            "status": "running",
+            "image": [
+                "alpine:latest"
+            ],
+            "id": "4915dc4dbc2a",
+            "started_at": "2026-06-25T06:34:34.427829074Z"
+        },
+        {
+            "name": "test-nginx",
+            "status": "running",
+            "image": [
+                "nginx:latest"
+            ],
+            "id": "bafeaad9eab2",
+            "started_at": "2026-06-25T06:33:31.859263942Z"
+        }
+    ]
+}
