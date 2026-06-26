@@ -1,0 +1,7 @@
+[
+    {"name": "prod-web-01", "status": "running", "cpu": 45, "ip": "10.0.1.1"},
+    {"name": "prod-web-02", "status": "stopped", "cpu": 0,  "ip": "10.0.1.17"},
+    {"name": "prod-web-03", "status": "running", "cpu": 91, "ip": "10.0.1.2"},
+    {"name": "prod-web-04", "status": "running", "cpu": 33, "ip": "10.0.1.22"},
+    {"name": "prod-web-05", "status": "running", "cpu": 95, "ip": "10.0.1.4"}
+]

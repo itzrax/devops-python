@@ -1,0 +1,78 @@
+{
+    "generated_at": "2026-06-26 18:13:50",
+    "server_health": [
+        {
+            "name": "prod-web-01",
+            "ip": "10.0.1.1",
+            "status": "running",
+            "cpu": 45,
+            "flag": "OK",
+            "message": "CPU: 45%"
+        },
+        {
+            "name": "prod-web-02",
+            "ip": "10.0.1.17",
+            "status": "stopped",
+            "cpu": 0,
+            "flag": "CRITICAL",
+            "message": "Server is DOWN"
+        },
+        {
+            "name": "prod-web-03",
+            "ip": "10.0.1.2",
+            "status": "running",
+            "cpu": 91,
+            "flag": "CRITICAL",
+            "message": "CPU High: 91%"
+        },
+        {
+            "name": "prod-web-04",
+            "ip": "10.0.1.22",
+            "status": "running",
+            "cpu": 33,
+            "flag": "OK",
+            "message": "CPU: 33%"
+        },
+        {
+            "name": "prod-web-05",
+            "ip": "10.0.1.4",
+            "status": "running",
+            "cpu": 95,
+            "flag": "CRITICAL",
+            "message": "CPU High: 95%"
+        }
+    ],
+    "log_analysis": {
+        "failed_attempts": {
+            "192.168.1.105": 7,
+            "203.0.113.42": 4
+        },
+        "successful_logins": {
+            "10.0.1.5": 1,
+            "10.0.1.1": 1
+        },
+        "targeted_users": {
+            "root": 7,
+            "admin": 3,
+            "deploy": 1
+        },
+        "threats": {
+            "192.168.1.105": 7,
+            "203.0.113.42": 4
+        }
+    },
+    "github_inspection": [
+        {
+            "username": "torvalds",
+            "name": "Linus Torvalds",
+            "public_repos": 12,
+            "created_at": "2011-09-03T15:26:22Z",
+            "bio": null,
+            "flag": "OK"
+        },
+        {
+            "username": "nonexistentuser99999",
+            "status": "NOT FOUND"
+        }
+    ]
+}
