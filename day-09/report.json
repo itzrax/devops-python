@@ -1,0 +1,25 @@
+{
+    "generated_at": "2026-06-26 13:50:54",
+    "failed_attempts": {
+        "192.168.1.105": 7,
+        "203.0.113.42": 4
+    },
+    "successful_logins": {
+        "10.0.1.5": 1,
+        "10.0.1.1": 1
+    },
+    "targeted_users": {
+        "root": 7,
+        "admin": 3,
+        "deploy": 1
+    },
+    "top_targeted_user": {
+        "username": "root",
+        "failed_attempts": 7
+    },
+    "summary": {
+        "total_failed_attempts": 11,
+        "total_successful_logins": 2,
+        "threats_detected": 2
+    }
+}
